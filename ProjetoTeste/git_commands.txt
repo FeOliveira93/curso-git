@@ -1,0 +1,18 @@
+-- Log
+git log --oneline
+
+-- Verificar status dos arquivos
+git status
+
+-- Adicionar arquivo para commit
+git add . 
+
+-- Restaurar para ultimo commit
+git cleand -df
+git checkout -- .
+
+-- Limpar último commit mas mantem alteração
+git reset --soft HEAD~1
+
+-- Limpar último commit mas *APAGA* alteração
+git reset --hard HEAD~1
