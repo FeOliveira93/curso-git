@@ -16,3 +16,16 @@ git reset --soft HEAD~1
 
 -- Limpar último commit mas *APAGA* alteração
 git reset --hard HEAD~1
+
+-- Visualizar arquivo sem perder alterações novas
+- NÃO PODE TER ALTERAÇÕES PRA FAZER
+git checkout [hash]
+
+-- voltar para atual
+git checkou (branch)
+
+-- comando para vincular git com github
+git remote add [nome] [uri]
+
+-- comando para subir pastas para o local remoto
+git push -u [nome] [branch]
